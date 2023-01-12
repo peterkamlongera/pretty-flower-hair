@@ -9,6 +9,10 @@ body {
     background-color: #FFEBEE;
 }
 
+a {
+    text-decoration: none;
+}
+
 li i {
     color: black;
 }
@@ -553,6 +557,27 @@ nav {
     margin: 0 2.7rem;
     font-family: "Roboto";
     width: 80%;
+}
+
+.contact-cta {
+    font-family: "Quicksand";
+    margin: 1rem 1.5rem;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.contact-cta a {
+    color: black;
+    text-transform: none;
+} 
+
+.contact-cta a:hover {
+    border-bottom: black solid 2px;
 }
 
 .contact-details-container p {
