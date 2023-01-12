@@ -13,7 +13,6 @@ li i {
     color: black;
 }
 
-
 /* section img {
     margin-top: 2rem;
     width: 50%;
@@ -63,7 +62,7 @@ nav {
     text-decoration: none;
     color:#F9F8F8;
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: 1.75rem;
     padding: 0.7rem;
 }
 
@@ -148,22 +147,22 @@ nav {
 
 .navbar .menu-items li {
     margin-bottom: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     font-family: "Quicksand";
-    font-family: #FFEBEE;
+    color: #FFEBEE;
 }
 
 .navbar .menu-sub-items li {
     margin-bottom: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     font-family: "Quicksand";
     color: #FFEBEE;
 }
 
 .navbar .menu-sub-items li i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 0 0.75rem;
     color: #FFEBEE;
@@ -173,12 +172,12 @@ nav {
     position: absolute;
     top: 17px;
     right: 20px;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     color: black;
 }
 
 .logo img {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
     cursor: pointer;
 }
 
@@ -360,7 +359,7 @@ nav {
     font-family: "Quicksand";
     font-weight: 100;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     width: 69%;
     margin: 0 1.5rem;
 }
@@ -369,6 +368,7 @@ nav {
     font-family: "Roboto";
     text-transform: uppercase;
     margin: 1rem 1.5rem;
+    font-size: 1.75rem;
 }
 
 /* .main-img {
@@ -396,6 +396,7 @@ nav {
     font-family: "Quicksand";
     text-align: center;
     margin: 4rem;
+    font-size: 1.875rem;
 }
 
 .about-heading-title {
@@ -413,25 +414,25 @@ nav {
 
 .img-4 {
     background: url(./assets/2.png);
-    grid-row: 1/10;
-    grid-column: 2/8;
-    background-position: center;
+    grid-row: 1/11;
+    grid-column: 2/10;
+    background-position: center 25%;
     background-size: cover;
 }
 
 .img-5 {
     background: url(./assets/3.png);
-    grid-row: 6/15;
-    grid-column: 5/12;
-    background-position: center;
+    grid-row: 5/16;
+    grid-column: 8/17;
+    background-position: center 25%;
     background-size: cover;
 }
 
 .img-6 {
     background: url(./assets/4.png);
-    grid-row: 11/19;
-    grid-column: 9/15;
-    background-position: center;
+    grid-row: 11/20;
+    grid-column: 15/24;
+    background-position: center 25%;
     background-size: cover;
 }
 
@@ -476,7 +477,7 @@ nav {
     font-family: "Quicksand";
     font-weight: 100;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 69%;
     margin: 0 1.5rem;
 }
@@ -485,6 +486,7 @@ nav {
     font-family: "Quicksand";
     margin: 1rem 1.5rem;
     text-align: center;
+    font-size: 2rem;
 }
 
 .services-cta {
@@ -493,6 +495,7 @@ nav {
     text-align: center;
     color: white;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .services-cta:hover {
@@ -504,45 +507,68 @@ nav {
     margin: 1rem 1.5rem;
     text-align: center;
     color: black;
+    font-size: 1.5rem;
 }
 
 .services-info-more {
     margin: 4rem;
 }
 
-
 .contact-us {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin: 0.5rem;
 }
 
-.contact-us h1 {
+.contact-info {
+    width: 100%;
+    max-width: 83%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h1 {
     font-family: "Quicksand";
     text-align: left;
-    margin: 0.5rem;
+    margin: 1rem;
+    font-size: 2rem;
 }
 
-.contact-us p {
+.contact-info p {
     font-family: "Roboto";
-    margin: 0.5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-booking-form h1 {
+    font-weight: 100;
+
 }
 
 .booking-form {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 2.7rem;
     font-family: "Roboto";
   }
   
   .form-group {
     margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   
   .form-group label {
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
@@ -552,7 +578,7 @@ nav {
   .form-group select {
     width: 90%;
     padding: 0.75rem;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     border-bottom: 1px solid #000;
     outline: none;
     background: #ffebee;
@@ -570,7 +596,7 @@ nav {
     padding: 0.75rem 1.5rem;
     background-color: #F06292;
     color: black;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     font-weight: bold;
     border: 1px solid black;
     cursor: pointer;
@@ -586,10 +612,7 @@ nav {
     flex-direction: column;
     align-items: center;
     font-family: "Quicksand";
-}
-
-.contact-item {
-
+    font-size: 1.5rem;
 }
 
 .ks-contact {
@@ -604,4 +627,614 @@ nav {
 .ks-contact:hover {
     border-bottom: 1px solid;
     border-color: black;
+    font-weight: bold;
+    text-transform: underline;
+}
+
+@media (max-width: 1200px) { 
+    .navbar .nav-container a {
+        font-weight: 500;
+        font-size: 1.75rem;
+        padding: 0.7rem;
+    }
+
+    .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li {
+        margin-bottom: 1.2rem;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li i {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0 0.75rem;
+    }
+    
+    .logo {
+        font-size: 2.25rem;
+    }
+    
+    .logo img {
+        font-size: 2.25rem;
+    }
+
+    .img-1 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/1.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-2 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/7.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-3 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/8.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .main-heading {
+        font-size: 1.875rem;
+        margin: 0 1.5rem;
+    }
+    
+    .main-sub-heading {
+        margin: 1rem 1.5rem;
+    }
+
+    .about-heading {
+        margin: 4rem;
+        font-size: 1.875rem;
+    }
+    
+    .about-imgs {
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+        grid-gap: 2rem;
+    }
+    
+    .img-4 {
+        background: url(./assets/2.png);
+        grid-row: 1/11;
+        grid-column: 2/10;
+        background-position: center 25%;
+        background-size: cover;
+    }
+    
+    .img-5 {
+        background: url(./assets/3.png);
+        grid-row: 5/16;
+        grid-column: 8/17;
+        background-position: center 25%;
+        background-size: cover;
+    }
+    
+    .img-6 {
+        background: url(./assets/4.png);
+        grid-row: 11/20;
+        grid-column: 15/24;
+        background-position: center 25%;
+        background-size: cover;
+    }
+
+    .services-heading {
+        font-size: 2rem;
+        width: 69%;
+        margin: 0 1.5rem;
+    }
+    
+    .services-sub-heading {
+        margin: 1rem 1.5rem;
+        font-size: 2rem;
+    }
+    
+    .services-cta {
+        margin: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .services-info {
+        margin: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .contact-info h1 {
+        text-align: left;
+        margin: 0.5rem;
+        font-size: 2rem;
+    }
+    
+    .contact-info p {
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select,
+    .form-group label {
+      padding: 0.75rem;
+      font-size: 1.25rem;
+    }
+    
+    .form-group .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.25rem;
+    }
+
+    .contact-footer {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) { 
+    .navbar .nav-container a {
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+
+    .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.875rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.875rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li i {
+        font-size: 1.875rem;
+        font-weight: 500;
+        padding: 0 0.75rem;
+    }
+    
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .logo img {
+        font-size: 2rem;
+    }
+
+    .img-1 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/1.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-2 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/7.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-3 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/8.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .main-heading {
+        font-size: 1.75rem;
+        margin: 0 1.5rem;
+    }
+    
+    .main-sub-heading {
+        margin: 1rem 1.5rem;
+    }
+
+    .about-heading {
+        margin: 4rem;
+        font-size: 1.75rem;
+    }
+    
+    .about-imgs {
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+        grid-gap: 2rem;
+    }
+    
+    .img-4 {
+        background: url(./assets/2.png);
+        grid-row: 1/10;
+        grid-column: 2/12;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-5 {
+        background: url(./assets/3.png);
+        grid-row: 6/15;
+        grid-column: 8/17;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-6 {
+        background: url(./assets/4.png);
+        grid-row: 11/19;
+        grid-column: 15/24;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .services-heading {
+        font-size: 1.875rem;
+        width: 69%;
+        margin: 0 1.5rem;
+    }
+    
+    .services-sub-heading {
+        margin: 1rem 1.5rem;
+        font-size: 1.875rem;
+    }
+    
+    .services-cta {
+        margin: 1rem 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .services-info {
+        margin: 1rem 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .contact-info h1 {
+        text-align: left;
+        margin: 0.5rem;
+        font-size: 1.875rem;
+    }
+    
+    .contact-info p {
+        margin: 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select,
+    .form-group label {
+      padding: 0.75rem;
+      font-size: 1.125rem;
+    }
+    
+    .form-group .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.125rem;
+    }
+
+    .contact-footer {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) { 
+    .navbar .nav-container a {
+        font-weight: 500;
+        font-size: 1.25rem;
+        padding: 0.7rem;
+    }
+
+    .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li i {
+        font-size: 1.75rem;
+        font-weight: 500;
+        padding: 0 0.75rem;
+    }
+    
+    .logo {
+        font-size: 1.75rem;
+    }
+    
+    .logo img {
+        font-size: 2rem;
+    }
+
+    .img-1 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/1.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-2 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/7.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .img-3 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/8.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 1/13;
+    }
+    
+    .main-heading {
+        font-size: 1.75rem;
+        margin: 0 1.5rem;
+    }
+    
+    .main-sub-heading {
+        margin: 1rem 1.5rem;
+    }
+
+    .about-heading {
+        margin: 4rem;
+        font-size: 1.75rem;
+    }
+    
+    .about-imgs {
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+        grid-gap: 2rem;
+    }
+    
+    .img-4 {
+        background: url(./assets/2.png);
+        grid-row: 1/10;
+        grid-column: 2/12;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-5 {
+        background: url(./assets/3.png);
+        grid-row: 6/15;
+        grid-column: 9/19;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-6 {
+        background: url(./assets/4.png);
+        grid-row: 11/19;
+        grid-column: 16/24;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .services-heading {
+        font-size: 1.75rem;
+        width: 69%;
+        margin: 0 1.5rem;
+    }
+    
+    .services-sub-heading {
+        margin: 1rem 1.5rem;
+        font-size: 1.75rem;
+    }
+    
+    .services-cta {
+        margin: 1rem 1.5rem;
+        font-size: 1.125rem;
+    }
+
+    .services-info {
+        margin: 1rem 1.5rem;
+        font-size: 1.125rem;
+    }
+
+    .contact-info h1 {
+        text-align: left;
+        margin: 0.5rem;
+        font-size: 1.75rem;
+    }
+    
+    .contact-info p {
+        margin: 0.5rem;
+        font-size: 1.125rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select,
+    .form-group label {
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+    
+    .form-group .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+    }
+
+    .contact-footer {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 640px) { 
+    .navbar .nav-container a {
+        font-weight: 500;
+        font-size: 1.125rem;
+        padding: 0.7rem;
+    }
+
+    .navbar .menu-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li {
+        margin-bottom: 1.2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .navbar .menu-sub-items li i {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 0 0.75rem;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .logo img {
+        font-size: 1.875rem;
+    }
+
+    .img-1 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/1.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 2/10;
+    }
+    
+    .img-2 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/7.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 7/16;
+    }
+    
+    .img-3 {
+        background: linear-gradient(rgba(240, 98, 146, 0.8), rgba(240, 98, 146, 0.8)), url('./assets/8.png');
+        background-position: center 25%;
+        background-size: cover;
+        grid-row: 1/13;
+        grid-column: 12/21;
+    }
+    
+    .main-heading {
+        font-size: 1.5rem;
+        margin: 0 1.5rem;
+    }
+    
+    .main-sub-heading {
+        margin: 1rem 1.5rem;
+    }
+
+    .about-heading {
+        margin: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .about-imgs {
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+        grid-gap: 2rem;
+    }
+    
+    .img-4 {
+        background: url(./assets/2.png);
+        grid-row: 1/10;
+        grid-column: 2/8;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-5 {
+        background: url(./assets/3.png);
+        grid-row: 6/15;
+        grid-column: 5/12;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .img-6 {
+        background: url(./assets/4.png);
+        grid-row: 11/19;
+        grid-column: 9/15;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .services-heading {
+        font-size: 1.5rem;
+        width: 69%;
+        margin: 0 1.5rem;
+    }
+    
+    .services-sub-heading {
+        margin: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .services-cta {
+        margin: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .services-info {
+        margin: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .contact-info h1 {
+        text-align: left;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .contact-info p {
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select,
+    .form-group label {
+      padding: 0.75rem;
+      font-size: 0.875rem;
+    }
+    
+    .form-group .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.875rem;
+    }
+
+    .contact-footer {
+        font-size: 1rem;
+    }
 }
