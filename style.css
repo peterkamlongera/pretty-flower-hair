@@ -174,8 +174,8 @@ nav {
 
 .logo {
     position: absolute;
-    top: 17px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     font-size: 2.25rem;
     color: black;
 }
@@ -1281,7 +1281,7 @@ nav {
     }
 }
 
-@media (max-width: 515px) {
+/* @media (max-width: 515px) {
      .about-imgs {
         display: grid;
         grid-template-columns: repeat(20, 1fr);
@@ -1312,9 +1312,10 @@ nav {
         background-position: center;
         background-size: cover;
     }
-}
+} */
 
-@media (max-width: 428px) {
+
+@media (max-width: 515px) {
      .about-imgs {
         display: grid;
         grid-template-columns: repeat(20, 1fr);
